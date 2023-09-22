@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!--=============== FAVICON ===============-->
+            <link rel="shortcut icon" href="/images/LogoMakr-7nlNgJ.png" type="image/x-icon">
+
+    <title>Wima Millers</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="css/prettyPhoto.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" />	
+   
+   <style>
+
+h3 {
+  text-align: center;
+  font-size: 1.65em;
+  margin: 50px 30%;
+  line-height: 1.2;
+}
+
+.pictures {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 3%;
+}
+
+.pictures img {
+  object-fit: cover;
+  width: 100%;
+  height:auto;
+  height: 200px;
+  transition: transform 0.2s ease;
+}
+
+a {
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+strong {
+  font-weight: 700;
+}
+
+a:hover img {
+  transform: scale(1.1) rotate(8deg);
+  box-shadow: 5px 15px 30px rgba(0, 0, 0, 0.6);
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 1;
+  text-align: left;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+figcaption {
+  margin: 15px 0 30px 0;
+  line-height: 1.3;
+}
+
+
+/* EN NU HIERONDER ALLE RESPPONSIVE DINGEN */
+
+
+@media (max-width: 900px) {
+  .pictures {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .pictures {
+    grid-template-columns: 1fr 1fr;
+  }
+  h3 {
+    margin: 50px 10%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .pictures {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media (max-width: 300px) {
+  .pictures {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+   </style>
+  </head>
+  <body>
+	<header>		
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="navigation">
+				<div class="container">					
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<div class="navbar-brand">
+							<a href="index.html"><h1><span> Wima </span>Millers</h1></a>
+						</div>
+					</div>
+					
+					<div class="navbar-collapse collapse">							
+						<div class="menu">
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation"><a href="index.html" class="active">Home</a></li>
+								<li role="presentation"><a href="about.html">About Us</a></li>
+								<li role="presentation"><a href="services.html">Services</a></li>								
+								<li role="presentation"><a href="portfolio.html">Portfolio</a></li>
+								
+								<li role="presentation"><a href="contact.html">Contact</a></li>						
+							</ul>
+						</div>
+					</div>						
+				</div>
+			</div>	
+		</nav>		
+	</header>
+	
+	<section id="main-slider" class="no-margin">
+        <div class="carousel slide">      
+            <div class="carousel-inner">
+                <div class="item active" id="wima" style="background-image: url(images/pexels-klaus-nielsen-6294381.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h2 class="animation animated-item-1">Welcome to our <span>Company</span></h2>
+                                    <p class="animation animated-item-2"><b>Sima Si Sima, Sima Ni Wima!!</b></p>
+                                    <a class="btn-slide animation animated-item-3" href="/about.html">Read More</a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                    <img src="images/slider/img3.png" class="img-responsive">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div><!--/.item-->             
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+    </section><!--/#main-slider-->
+	
+	<div class="feature">
+		<div class="container">
+			<div class="text-center">
+				<div class="col-md-3">
+					<div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" >
+						<i class="fa fa-book"></i>	
+						<h2>Quality and Precision:  </h2>
+						<p>  Wima Millers is known for its commitment to excellence and attention to detail. 
+							They prioritize delivering products and services of the highest quality, ensuring customer satisfaction. </p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" >
+						<i class="fa fa-laptop"></i>	
+						<h2>Commitment to Timelines</h2>
+						<p> Meeting deadlines is a key priority for Wima Millers. 
+							They understand the importance of timely project delivery and work diligently to ensure that all milestones are met promptly. </p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" >
+						<i class="fa fa-heart-o"></i>	
+						<h2> Sustainable Practices </h2>
+						<p>  Wima Millers is committed to sustainable business practices and environmental responsibility. They actively seek ways to minimize waste, 
+							reduce energy consumption, and adopt eco-friendly measures in their operations.  </p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" >
+						<i class="fa fa-cloud"></i>	
+						<h2> Cutting-Edge Technology </h2>
+						<p> Wima Millers keeps up with the latest advancements in technology and incorporates them into their processes. By utilizing state-of-the-art equipment and software, they can optimize efficiency and accuracy, resulting in faster project completion times and enhanced productivity.  </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="about">
+		<div class="container">
+			<div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" >
+				<h2><b>About us</b></h2>
+				<img src="images/package.jpeg" height="50%"  class="img-responsive"/>
+				
+			</div>
+			
+			<div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" >
+				<h2><b>Sima Si Sima ,Sima Ni Wima</b></h2>
+				
+				<p>Welcome to Wima Millers, a leading maize milling company dedicated to providing high-quality maize products to our valued customers.
+					 With years of experience and a commitment to excellence,
+					 we are proud to be a trusted name in the maize milling industry.
+				</p>
+				<p>
+					At Wima Millers, we understand the importance of quality and nutrition in the food we consume.
+					 Our state-of-the-art milling facility is equipped with advanced machinery and technologies that enable us to process maize with precision and care.
+					 We source only the finest maize grains from reliable farmers who share our passion for quality.
+				</p>
+				<p>
+					One of our core values at Wima Millers is customer satisfaction.
+					 We strive to understand and meet the unique needs of our customers, whether they are small businesses or large-scale enterprises. 
+					 We offer a wide range of maize products, including maize flour, maize grits, and maize meal, catering to various culinary preferences and applications.
+				</p>
+
+
+				<p>At Wima Millers,we are commitment to quality and customer satisfaction,
+					we are also dedicated to sustainability and environmental responsibility. 
+					We optimize our production processes to minimize waste and energy consumption, promoting eco-friendly practices throughout our operations.
+					 By working closely with local farmers and supporting sustainable agriculture, we contribute to the well-being of our community and the planet.
+
+			   </p>
+
+<p>
+					Our team of skilled and experienced professionals ensures that every step of the milling process meets the highest standards.
+					 From cleaning and grading the maize to milling and packaging the final products, we maintain strict quality control measures to guarantee consistent excellence. We prioritize food safety and adhere to all relevant industry regulations, providing our customers with peace of mind and confidence in our products.
+
+
+				</p>
+				<p>
+
+					At Wima Millers, we believe in building lasting relationships with our customers. 
+					Our knowledgeable and friendly team is always ready to assist you with any inquiries or requests.
+					 We value your feedback and continuously strive to improve our products and services to exceed your expectations.
+				<br>
+				<br><b>
+					Thank you for choosing Wima Millers as your trusted maize milling partner. We look forward to serving you and providing you with the finest maize products for your culinary needs.
+				</b>
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="lates">
+		<div class="container">
+			<div class="text-center">
+				<h2>Our Products</h2>
+			</div>
+			
+
+
+			<div class="pictures">
+				<a href="">
+				  <figure>
+					<img src="/images/wima.jpeg" alt="">
+					<figcaption>
+					  <h4> Maize Flour</h4>
+					 
+					</figcaption>
+				  </figure>
+				</a>
+
+
+
+				<a href="#">
+					<figure>
+					  <img src="/images/dushi.jpeg" alt="">
+					  <figcaption>
+						<h4>Maize Flour</h4>
+					  
+					  </figcaption>
+					</figure>
+				  </a>	
+
+				<a href="">
+					<figure>
+					  <img src="/images/bida.jpeg" alt="">
+					  <figcaption>
+						<h4>Maize Flour</h4>
+						
+					  </figcaption>
+					</figure>
+				  </a>
+
+				<a href="">
+				  <figure>
+					<img src="/images/img-20180314-wa00011433630798.jpg" alt="">
+					<figcaption>
+					  <h4>Maize Germ</h4>
+					
+					</figcaption>
+				  </figure>
+				</a>
+				<a href="#">
+				  <figure>
+					<img src="/images/Maize-Germ.jpg" alt="">
+					<figcaption>
+					  <h4>Maize Bran</h4>
+					
+					</figcaption>
+				  </figure>
+				</a>
+			
+				
+		</div>
+	</div>
+	
+	<section id="partner">
+        <div class="container">
+            <div class="center wow fadeInDown">
+                <h2>Our Partners</h2>
+                <p> At Wima Millers, we understand the importance of collaboration and strategic partnerships in delivering exceptional maize products and services to our valued customers.  </p>
+            </div>    
+
+            <div class="partners">
+                <ul>
+                    <li> <a href=""><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="images/partners/partner1.png"></a></li>
+                    <li> <a href=""><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="images/partners/partner2.png"></a></li>
+                    <li> <a href=""><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="images/partners/partner3.png"></a></li>
+                    <li> <a href=""><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="images/partners/partner4.png"></a></li>
+                    <li> <a href=""><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="images/partners/partner5.png"></a></li>
+                </ul>
+            </div>        
+        </div><!--/.container-->
+    </section><!--/#partner-->
+	
+	<section id="conatcat-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="pull-left">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="media-body">
+                            <h2>Have any question ?</h2> 
+                            <b><p>You can contact us on 0787 631 382</p></b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/.container-->    
+    </section><!--/#conatcat-info-->
+	
+	<footer>
+		<div class="footer">
+			<div class="container">
+				<div class="social-icon">
+					<div class="col-md-4">
+						<ul class="social-network">
+							<li><a href="https://www.facebook.com/profile.php?id=100094081377337 " class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+							
+							<li><a href=" https://www.instagram.com/wimafourmillinglimited/?utm_source=qr" class="gplus tool-ti" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/wima-flour-milling-limited-b9a944281/" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="https://www.youtube.com/channel/UC2mFAZc4DYp2-7rQK8fqFbQ" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
+						</ul>	
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-md-offset-4">
+					<div class="copyright">
+						&copy; Wima Flour Milling . All Rights Reserved.
+					</div>
+                    
+				</div>						
+			</div>
+			
+			<div class="pull-right">
+				<a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
+			</div>		
+		</div>
+	</footer>
+
+	
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-2.1.1.min.js"></script>	
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>  
+	<script src="js/wow.min.js"></script>
+	<script src="js/functions.js"></script>
+	
+  </body>
+</html>
